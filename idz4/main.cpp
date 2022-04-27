@@ -101,8 +101,9 @@ int main()
 
 
 	String S2 = S1;
-	S2.Run();
 	printf("\nString 2 is: "); S2.Print();
-
+	S2.Run();
+	printf("\nEdited String 2 is: "); S2.Print();
+	putchar('\n');
 	return 0;
 }
