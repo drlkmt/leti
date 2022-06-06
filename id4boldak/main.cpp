@@ -1,6 +1,6 @@
 #include <iostream>
 #include <malloc.h>
-#define MAXLENSTR 79
+#define MAXLENSTR 90
 
 class String
 {
@@ -114,13 +114,13 @@ int main()
 	String S1;
 	printf("Set str: ");
 	S1.Set();
-	printf("\nString 1 is: "); S1.Print();
+	printf("\nStr 1 is: "); S1.Print();
 
 
 	String S2 = S1;
-	printf("\nString 2 is: "); S2.Print();
+	printf("\nStr 2 is: "); S2.Print();
 	S2.Run();
-	printf("\nEdited String 2 is: "); S2.Print();
+	printf("\nEdited Str 2 is: "); S2.Print();
 	putchar('\n');
 	return 0;
 }
